@@ -59,7 +59,6 @@ $(document).ready(function () {
                             for (let rowReference in rowsWithValues){
                                 let currentRow = rowsWithValues[rowReference];
 
-                                console.log(Object.values(currentRow));
                                 rowsCarry.push(Object.values(currentRow));
 
                             }
