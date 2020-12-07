@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap-theme.css">-->
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--  -->
+
+    <title>Javascript y jQuery</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 text-center main-title">
+                <a href="https://xlsx2dash.jahirmedina.com/">
+                    <span class="h1">
+                        Online Excel Visualizer
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row">
+            <div class="col-md-10 offset-md-1 card vertical-padding-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <form method="post" action="" enctype="multipart/form-data" id="myform">
+                                <div class="card">
+                                    <div class="card-header align-items-center align-content-center">
+                                        Upload your Excel
+                                    </div>
+                                    <img class="card-img vertical-padding-content img-fluid sm-img "
+                                         src="assets/imgs/excel-ico.svg"
+                                    >
+                                    <div class="card-body">
+                                        <input type="file"  class="btn bg-dark text-light" id="file" name="file" />
+                                        <input type="button" class="btn btn-primary" value="Upload" id="but_upload"></input>
+                                    </div>
+                                    <div class="card-footer text-muted text-center">
+                                        <span id="fileName" class="text-muted">
+                                            No File Uploaded Already
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 card">
+                            <div id="dataTable" class="vertical-padding-content">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 offset-md-10 text-md-center">
+                <span class="text-muted">by: Jahir M.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery-3.5.1.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<!--<script src="assets/js/bootstrap.bundle.js"></script>-->
+
+<!--  -->
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<!--  -->
+<script src="assets/js/main.js"></script>
+
+</html>
